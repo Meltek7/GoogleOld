@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+.center{ /*Aynı özelliği kullananlar için class oluşturuyorum, farklı özellikler için id.*/
+    text-align: center;
+}
+#searchArea{
+    background-color:#EEEEEE;
+    margin-bottom:0;
+}
+tr{
+    height: 60px;
+}
+table{
+    border:0;
+    width:90%;
+    margin-left: 5%;
+}
+img{
+    margin-top:10px;
+}
+#specialSearchArea{
+    background-color: #7EE5DA;
+}
+#HelpArea{
+    background-color: #70CCC2;
+}
+#subscribeArea{
+    background-color: #62B3AA;
+}
+.littlefontsize{
+    font-size: 13px;
+}
+input[type=submit]{ /*input type'ı submit olanları yani butonları seçiyorum.*/
+    padding:2px 4px;
+}
+#copyright{
+    padding-top: 1%;
+}

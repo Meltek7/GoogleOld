@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google!</title>
+</head>
+
+<body>
+    <div>
+        <div class="center">
+            <!--Divin içinde tutuyorum ki satırı kaplasın ve sayfaya göre ortalayabileyim.-->
+            <img src="googlelogo.jpg" width="351" height="113" alt="Google!">
+        </div>
+        <div class="center">
+            <table id="search">
+                <tr>
+                    <td id="searchArea" colspan="3">
+                        <form action="#">
+                            <div class="center">
+                                Search the web using Google! <br>
+                                <input type="text" name="q" value="" size="40"><br>
+                                <input type="submit" value="Google Search">
+                                <input type="submit" name="sa" value="I'm feeling lucky"><br>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="specialSearchArea" width="37%">
+                        <div class="center">
+                            Special Searches<br>
+                            <a href="">Stanford Search</a><br>
+                            <a href="">Linux Search</a><br>
+                        </div>
+                    </td>
+                    <td id="HelpArea" class="littlefontsize">
+                        <div class="center">
+                            <div>
+                                <a href="#">Help!</a> <br>
+                                <a href="#">About Google!</a> <br>
+                                <a href="#">Company Info</a> <br>
+                                <a href="#">Google! Logos</a> <br>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="subscribeArea" class="littlefontsize">
+                        <form action="#">
+                            <div class="center">
+                                <div>
+                                    Get Google! <br> updates monthly: <br>
+                                    <input type="hidden" name="listname" value="google-friends"> <!--Burası insspectte görünüyor.Ancak hidden olduğu için ekrana yansımaz.-->
+                                    <input type="text" name="emailaddr" value="your e-mail"> <br>
+                                    <input type="submit" name="SubmitAction" value="Subscribe">
+                                    &nbsp;&nbsp;
+                                    <span><a href="#">Archive</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="center" id="copyright">
+            <div class="littlefontsize center">Copyright &copy;1998 Google Inc.</div>
+        </div>
+    </div>
+</body>
+
+</html>
